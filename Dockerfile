@@ -1,6 +1,8 @@
+# v1.2.2
+
 FROM ubuntu:xenial
 
-# Adapted from ryshe/terraria to use xenial and drop Tshock
+# Adapted from ryshe/terraria to use xenial
 MAINTAINER J. Patrick Moffitt <zuryn@zuryn.net>
 
 # Add mono repository
