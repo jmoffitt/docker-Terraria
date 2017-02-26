@@ -25,7 +25,7 @@ RUN unzip tshock_$TSHOCK_VERSION.zip -d /tshock && \
     chmod 777 /tshock/TerrariaServer.exe
 
 # Allow for external data
-VOLUME ["/world"]
+VOLUME ["/world", "/tshock/ServerPlugins"]
 
 # Set working directory to server
 WORKDIR /tshock
